@@ -11,7 +11,7 @@ services:
       POSTGRES_PASSWORD: QueryConSql.pwd
       TZ:  America/Guayaquil
     ports:
-      - 5432:5432
+      - 5632:5432
     networks:
       - datalogger_net
     volumes:
@@ -19,7 +19,7 @@ services:
 
 
   srvwildfly:
-    image: ups/demoappdocker
+    image: draaft4/imagenbackend
     container_name: srvwildfly
     hostname: srvwildfly
     environment:

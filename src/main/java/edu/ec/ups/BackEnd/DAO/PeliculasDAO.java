@@ -33,7 +33,7 @@ public class PeliculasDAO {
 	}
 	
 	public List<Pelicula> getPeliculas(){
-		String jpql = "SELECT * FROM peliculas";
+		String jpql = " SELECT pelicula FROM Pelicula  pelicula ";
 		Query query = em.createQuery(jpql, Pelicula.class);
 		List<Pelicula> peliculas = query.getResultList();
 		return peliculas;

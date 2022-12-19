@@ -5,7 +5,7 @@ ENV WILDFLY_PASS userPassword
 ENV DS_NAME postgresDS
 ENV DS_USER postgres
 ENV DS_PASS QueryConSql.pwd
-ENV DS_URI jdbc:postgresql://srvdb/consultas
+ENV DS_URI jdbc:postgresql://srvdb/postgres
 
 ENV JBOSS_CLI $JBOSS_HOME/bin/jboss-cli.sh
 ENV DEPLOYMENT_DIR $JBOSS_HOME/standalone/deployments/
@@ -40,7 +40,7 @@ RUN echo "Starting WildFly server" && \
       rm -rf $JBOSS_HOME/standalone/configuration/standalone_xml_history/ $JBOSS_HOME/standalone/log/* && \
       rm -f /tmp/*.jar
 
-COPY C://Users//Pedro Neira//eclipse-workspace//BackEnd//target//BackEnd.war ${JBOSS_HOME}/standalone/deployments/
+COPY BackEnd.war ${JBOSS_HOME}/standalone/deployments/
 EXPOSE 8080
 EXPOSE 8009
 EXPOSE 9990

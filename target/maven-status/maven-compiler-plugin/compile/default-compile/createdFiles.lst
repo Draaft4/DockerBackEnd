@@ -1,5 +1,6 @@
-edu\ec\ups\BackEnd\Jsf23Activator.class
 edu\ec\ups\BackEnd\service\Mensaje.class
-edu\ec\ups\BackEnd\model\Pelicula.class
 edu\ec\ups\BackEnd\DAO\PeliculasDAO.class
 edu\ec\ups\BackEnd\service\PeliculasWSRestful.class
+edu\ec\ups\BackEnd\Jsf23Activator.class
+edu\ec\ups\BackEnd\service\ApplicationPathWS.class
+edu\ec\ups\BackEnd\model\Pelicula.class
