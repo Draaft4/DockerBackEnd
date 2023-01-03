@@ -3,7 +3,12 @@ package edu.ec.ups.BackEnd.service;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
+import io.swagger.v3.oas.annotations.OpenAPIDefinition;
+import io.swagger.v3.oas.annotations.info.Info;
+import io.swagger.v3.oas.annotations.servers.Server;
+
 @ApplicationPath("/ws")
-public class ApplicationPathWS extends Application{
+@OpenAPIDefinition(info = @Info(title = "Peliculas API", description = "API de servicios Restful para listar peliculas", version = "1.0"), servers = {@Server(description = "Servidor Wildfly", url = "/BackEnd")})
+public class ApplicationPathWS extends Application {
 
 }

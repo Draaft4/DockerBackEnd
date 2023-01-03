@@ -17,6 +17,16 @@ services:
     volumes:
       - pg_data2:/var/lib/postgresql/data
 
+  srvflutter:
+    image: draaft4/imagenflutter
+    container_name: srvflutter
+    hostname: srvflutter
+    environment:
+      TZ: America/Guayaquil
+    ports:
+      - 8080:80
+    networks:
+      - datalogger_net
 
   srvwildfly:
     image: draaft4/imagenbackend

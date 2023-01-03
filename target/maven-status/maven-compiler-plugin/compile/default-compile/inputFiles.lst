@@ -1,6 +1,7 @@
 C:\Users\Pedro Neira\eclipse-workspace\BackEnd\src\main\java\edu\ec\ups\BackEnd\Jsf23Activator.java
 C:\Users\Pedro Neira\eclipse-workspace\BackEnd\src\main\java\edu\ec\ups\BackEnd\service\PeliculasWSRestful.java
 C:\Users\Pedro Neira\eclipse-workspace\BackEnd\src\main\java\edu\ec\ups\BackEnd\service\Mensaje.java
+C:\Users\Pedro Neira\eclipse-workspace\BackEnd\src\main\java\edu\ec\ups\BackEnd\util\CORSFilter.java
 C:\Users\Pedro Neira\eclipse-workspace\BackEnd\src\main\java\edu\ec\ups\BackEnd\DAO\PeliculasDAO.java
 C:\Users\Pedro Neira\eclipse-workspace\BackEnd\src\main\java\edu\ec\ups\BackEnd\model\Pelicula.java
 C:\Users\Pedro Neira\eclipse-workspace\BackEnd\src\main\java\edu\ec\ups\BackEnd\service\ApplicationPathWS.java
